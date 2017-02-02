@@ -1,4 +1,4 @@
-defmodule Euler03 do
+defmodule E03 do
   def largest_prime_factor(x) do
     prime_factors(x)
       |> List.last
@@ -20,4 +20,4 @@ defmodule Euler03 do
   end
 end
 
-IO.puts Euler03.largest_prime_factor(600_851_475_143)
+IO.puts E03.largest_prime_factor(600_851_475_143)

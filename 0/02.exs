@@ -1,4 +1,4 @@
-defmodule Euler02 do
+defmodule E02 do
   def sum_even_fibs_under(x) do
     even_fibs_under(x)
       |> sum_list()
@@ -27,4 +27,4 @@ defmodule Euler02 do
   end
 end
 
-IO.puts Euler02.sum_even_fibs_under(4_000_000)
+IO.puts E02.sum_even_fibs_under(4_000_000)
